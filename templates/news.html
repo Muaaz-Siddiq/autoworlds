@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+
+        .did{
+             background: radial-gradient(#fff, #292828);
+        }
+        .stnews{
+            text-align: center;
+            font-family: "Poppins", sans-serif;
+            background-color: rgb(245, 207, 136);
+        }
+        .arthor {
+            padding-left: 10px;
+            
+        }
+        .stbgdiv {
+            background-image: linear-gradient(to right, rgb(233, 175, 112) ,white);
+            margin-bottom: 10px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            margin-left: 20px;
+            border: 3px solid black;   
+            margin-top: 5px;                    
+        }
+        .stcont{
+            padding-left: 10px;
+        }
+        #contain {
+         position:relative;
+        height:610px;
+       
+       
+
+    }
+        #contain img {
+         position:absolute;
+         margin-left: 70px;
+         border: 3px solid black;
+         align-items: center;
+         min-width: 90%;
+       max-height: 100%;
+       max-width: 90%;
+
+       
+    }
+    @media only screen and (max-width: 1200px) {
+      #contain {
+        padding-top: 10px;
+      }
+  #contain img {
+    
+    margin-left: 20px;
+   
+  
+  }
+  .stbgdiv {
+    
+    margin-left: 3px;
+    margin-right: 3px;
+    
+  }
+  #asd {
+    margin-top: -300px;
+  }
+  .stnews{
+    font-size: 0.51rem;
+    
+  }
+}
+
+
+    @-webkit-keyframes imgFade {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@-moz-keyframes imgFade {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@-o-keyframes imgFade {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@keyframes imgFade {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+
+#contain img {
+  -webkit-animation-name: imgFade;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 8s;
+
+  -moz-animation-name: imgFade;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 8s;
+
+  -o-animation-name: imgFade;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-iteration-count: infinite;
+  -o-animation-duration: 8s;
+
+  animation-name: imgFade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+
+  animation-name: imgFade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+
+  animation-name: imgFade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+}
+#contain img:nth-of-type(1) {
+  -webkit-animation-delay: 10s;
+  -moz-animation-delay: 10s;
+  -o-animation-delay: 10s;
+  animation-delay: 10s;
+}
+#contain img:nth-of-type(2) {
+  -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
+  -o-animation-delay: 8s;
+  animation-delay: 8s;
+}
+#contain img:nth-of-type(3) {
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  -o-animation-delay: 6s;
+  animation-delay: 6s;
+}
+#contain img:nth-of-type(4) {
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -o-animation-delay: 4s;
+  animation-delay: 4s;
+}
+#contain img:nth-of-type(5) {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  animation-delay: 2s;
+}
+#contain img:nth-of-type(6) {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  animation-delay: 2s;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="icon" type="image/png" href="static/images/logo1.png">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+               <a href="/index"><img src="static/images/logo1.png" width="155px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li id="ho"><a href="/index">Home</a></li>
+                    <li id="ho"><a href="/Brands">Brands</a></li>
+                    <li id="ho"><a href="/compare">Comparison</a></li>
+                    <li id="ho"><a href="/about">About</a></li>
+                    <li id="ho"><a href="/News">News</a></li>
+                </ul>
+            </nav>
+        
+            <img src="static/images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+      
+    </div>
+    
+    <div class="did">
+        <div class="stnews"><h1>------------ LATEST NEWS ------------</h1></div>
+    <hr>
+    <div id="contain">
+        <img src="https://i.pinimg.com/originals/5c/02/95/5c0295389fe49d4cfe084358a710c5ac.jpg">
+        <img src="https://www.drivespark.com/images/2020-07/lamborghini-sian-roadster-exterior-18.jpg">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo33bonHLPfbw0auY0HKLdQInQK_bNwGhGBQ&usqp=CAU">
+        <img src="https://www.usa-car-import.com/upload/heading/usa-car-import-zakelijk-1500x750.jpg">
+        <img src="https://www.newyorkbyrail.com/wp-content/uploads/2018/02/NY-International-Auto-Show-2.jpg">
+        <img src="https://s.abcnews.com/images/Business/lincoln-corsair-gty-jpo-190418_hpEmbed_3x2_992.jpg">
+    </div>
+    <div id="asd">
+    <div class="stbgdiv">  
+        
+        <p class="arthor"><b>Author :</b> {{author}}</p>
+        <p class="arthor"><b>Title :</b> {{title}}</p>
+        <p class="arthor"><b>Description :</b> {{descript}}</p>
+        <p class="arthor"><b>Published :</b> {{published}}</p>
+        <p class="stcont"><b>Content :</b> {{content}}</p>
+    </div>
+    
+    <div class="stbgdiv">
+        <p class="arthor"><b>Author :</b> {{author1}}</p>
+        <p class="arthor"><b>Title :</b> {{title1}}</p>
+        <p class="arthor"><b>Description :</b> {{descript1}}</p>
+        <p class="arthor"><b>Published :</b> {{published1}}</p>
+        <p class="stcont"><b>Content :</b> {{content1}}</p>
+    </div>
+ 
+    <div class="stbgdiv">
+        <p class="arthor"><b>Author :</b> {{author2}}</p>
+        <p class="arthor"><b>Title :</b> {{title2}}</p>
+        <p class="arthor"><b>Description :</b> {{descript2}}</p>
+        <p class="arthor"><b>Published :</b> {{published2}}</p>
+        <p class="stcont"><b>Content :</b> {{content2}}</p>
+    </div>
+    <div class="stbgdiv">
+      <p class="arthor"><b>Author :</b> {{author3}}</p>
+      <p class="arthor"><b>Title :</b> {{title3}}</p>
+      <p class="arthor"><b>Description :</b> {{descript3}}</p>
+      <p class="arthor"><b>Published :</b> {{published3}}</p>
+      <p class="stcont"><b>Content :</b> {{content3}}</p>
+  </div>
+  <div class="stbgdiv">
+    <p class="arthor"><b>Author :</b> {{author4}}</p>
+    <p class="arthor"><b>Title :</b> {{title4}}</p>
+    <p class="arthor"><b>Description :</b> {{descript4}}</p>
+    <p class="arthor"><b>Published :</b> {{published4}}</p>
+    <p class="stcont"><b>Content :</b> {{content4}}</p>
+</div>
+</div>
+   
+    </div>
+
+
+
+
+    <!----footer----->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>
+                    Download App for Android and ios mobile phone.
+                </p>
+                <div class="app-logo">
+                    <img src="static/images/play-store.png">
+                    <img src="static/images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="static/images/logo2.png">
+                <p>
+                    Our Purpose Is To Sustainably Make the Pleausre and Benefits of Cars Accessible to the Many.
+                </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <p>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <p>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2021</p>
+    </div>
+</div>
+<!-----js for toggle menu-->
+<script>
+    var MenuItems= document.getElementById("MenuItems");
+    MenuItems.style.maxHeight="0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight=="0px")
+        {
+            MenuItems.style.maxHeight="200px"
+        }
+        else
+        {
+            MenuItems.style.maxHeight="0px";
+        }
+    }
+</script>
+</body>
+</html>
